@@ -1,0 +1,41 @@
+#main_landing {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(320.89deg, #574273 0%, whitesmoke 100%);
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_landing .error {
+    width: 300px;
+    position: relative;
+    float: center;
+
+    display: center;
+    
+    justify-content: center;
+    align-items: center;
+
+    color: #3a2b4f;
+}
+
+#main_landing .error img {
+    margin-bottom: 20px;
+    width: 350px;
+    float: right;
+}
+
+#main_landing .error strong {
+    font-size: 25px;
+    font-weight: 600;
+    float: right;
+}
+
+#main_landing .error p {
+    font-size: 18px;
+    font-weight: 500;
+    float: right;
+}

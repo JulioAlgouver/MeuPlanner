@@ -1,0 +1,148 @@
+#main-Profile {
+    position: absolute;
+}
+
+#main-Profile hr {
+    position: absolute;
+    left: 25.27%;
+    top: 49.76%;
+
+
+    border: 1px solid grey;
+    transform: rotate(90deg);
+    width: 80vh;
+}
+
+#main-Profile button {
+    margin-top: 10%;
+    height: 43px;
+    width: 181px;
+    left: 1109px;
+    top: 326px;
+    
+    background: #EDC04F;
+    border-radius: 15px;
+
+    font-family: Roboto;
+    font-weight: bolder;
+    font-style: bolder;
+    transition: 0.4s;
+    font-size: 18px;
+    border: none;
+
+    color: #574273;
+}
+
+#main-Profile button:hover {
+    cursor: pointer;
+    box-shadow: #c1962a 1px 1px 8px;
+    background: #dec37f;
+}
+
+#main-Profile .content {
+    position: relative;
+    margin-top: -285px ;
+    padding: 30px;
+    height: 85vh;
+    width: 90vw;
+    left: 3%;
+    
+    background: #E3E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#main-Profile .content strong {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+
+#main-Profile .content .user_data {
+    position: absolute;
+    margin-bottom: 15%;
+    float: left;
+    width: 45vw;
+    height: 391px;
+    left: 30px;
+
+    color: #3d2d51;
+}
+
+#main-Profile .content .user_data strong {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#main-Profile .content .user_data span {
+    position: relative;
+    display: flex;
+    width: 525px;
+    height: 40px;
+}
+
+#main-Profile .content .user_data span b {
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+}
+
+#main-Profile .content .profile_user {
+    position: relative;
+    float: right;
+    width: 45%;
+    height: 90%;
+
+    color: #3d2d51;
+}
+
+#main-Profile .content .profile_user strong {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+
+#main-Profile .content .profile_user span {
+    position: relative;
+    display: flex;
+    margin-top: 25vh;
+}
+
+#main-Profile .content .user_data span b {
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+}
+
+#main-Profile .content .profile_user .userPhoto {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+#main-Profile .content .profile_user .userPhoto input[type=file] {
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 128px;
+    height: 21px;
+    align-items: center;
+}
+
+#main-Profile .content .profile_user .userPhoto img {
+    position: relative;
+    left: 13%;
+}
+
+#main-Profile .content .profile_user .security {
+    position: relative;
+    float: left;
+}

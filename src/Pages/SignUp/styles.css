@@ -1,0 +1,218 @@
+#main-SignUpContainer {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(196, 196, 196, 1);
+}
+
+#main-SignUpContainer input {
+    border: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #6A6A6A;
+}
+
+#main-SignUpContainer .left-content {
+    position: absolute;
+    height: 100%;
+}
+
+#main-SignUpContainer .left-content .Vector {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#main-SignUpContainer .left-content .VectorBackground {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    left: 1.5vh;
+}
+
+#main-SignUpContainer .left-content .form {
+    position: absolute;
+    width: 300px;
+    top: 25vh;
+    left: 12vw;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-SignUpContainer .left-content .form .nome {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    padding-left: 10px;
+    
+    background: #C4C4C4;
+    border-radius: 15px;
+    
+    outline: none;
+}
+
+#main-SignUpContainer .left-content .form .usuario {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    padding-left: 10px;
+
+    background: #C4C4C4;
+    border-radius: 15px;
+
+    outline: none;
+}
+
+#main-SignUpContainer .left-content .form .email {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    padding-left: 10px;
+    
+    background: #C4C4C4;
+    border-radius: 15px;
+
+    outline: none;
+}
+
+#main-SignUpContainer .left-content .form .password {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    padding-left: 10px;
+    
+    background: #C4C4C4;
+    border-radius: 15px;
+
+    outline: none;
+}
+
+#main-SignUpContainer .left-content .SendForm {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    left: 18%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 1000;
+    line-height: 28px;
+
+    color: #574273;
+    
+    background: #daac39;
+    border-radius: 15px;
+    outline: none;
+
+    transition: 0.4s;
+}
+
+#main-SignUpContainer .left-content .SendForm:hover {
+    cursor: pointer;
+    box-shadow: #c1962a 1px 1px 8px;
+    background: #dec37f;
+
+}
+
+#main-SignUpContainer .left-content .form span {
+    position: relative;
+    float: left;
+    left: 23%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #E7E3E3;
+}
+
+#main-SignUpContainer .left-content .SignInLink {
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    top: 90vh;
+    left: 2vw;
+    border-radius: 25px;
+
+    background: #EDC04F;
+    transition: 0.4s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-SignUpContainer .left-content .SignInLink:hover {
+    cursor: pointer;
+    box-shadow: #c1962a 1px 1px 8px;
+    background: #dec37f;
+}
+
+#main-SignUpContainer .right-content {
+    width: 50vw;
+    position: relative;
+    display: flex;
+    float: right;
+}
+
+#main-SignUpContainer .right-content strong {
+    position: absolute;
+    width: 528px;
+    height: 129px;
+    left: 5vh;
+    top: 36px;
+    
+    font-family: Charmonman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 171px;
+    
+    color: #574273;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#main-SignUpContainer .right-content .NotepadImg {
+    position: absolute;
+    width: 180px;
+    height: 172.89px;
+    left: 30vw;
+    top: 15vh;
+}
+
+#main-SignUpContainer .right-content span {
+    position: absolute;
+    width: 505px;
+    height: 224px;
+    right: 5vw;
+    top: 50vh;
+    
+    font-family: Charmonman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 114px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

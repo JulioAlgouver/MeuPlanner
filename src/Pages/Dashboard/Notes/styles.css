@@ -1,0 +1,110 @@
+#main-Notes {
+    position: absolute;
+}
+
+#main-Notes .content {
+    position: relative;
+    padding: 20px;
+    margin-top: -105px;
+    left: 3%;
+    width: 90vw;
+    height: 85vh;
+    
+    background: #E3E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#main-Notes .content strong {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+
+#main-Notes .content .grid {
+    margin-top: 20px;
+    height: 65vh;
+    overflow-y: scroll;
+}
+
+#main-Notes .content .grid .noteButton {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    width: 85vw;
+    height: 10vh;
+
+    transition: 0.4s;
+    border: none;
+
+    background: #C4C4C4;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#main-Notes .content .grid .noteButton:hover {
+    box-shadow: 1px 3px 12px 2px rgb(183, 183, 183);
+}
+
+#main-Notes .content .grid .noteButton .titulo {
+    position: relative;
+    display: flex;
+    width: 500px;
+    top: -10px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #574273;
+}
+
+#main-Notes .content .grid .noteButton .descricao {
+    position: relative;
+    display: flex;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: #574273;
+}
+
+#main-Notes .content .grid .noteButton .data_cadastro {
+    position: relative;
+    display: flex;
+    float: right;
+    top: -55px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: #574273;
+}
+
+#main-Notes .content .grid .addNoteButton {
+    position: relative;
+    margin-top: 20px;
+    width: 85vw;
+    height: 10vh;
+
+    background: #D6D6D6;
+    border-radius: 20px;
+    transition: 0.4s;
+    border: none;
+} 
+
+#main-Notes .content .grid .addNoteButton:hover {
+    box-shadow: 1px 3px 12px 2px rgb(183, 183, 183);
+}
